@@ -37,6 +37,9 @@ jobs:
           
       - name: Install Gitbook-cli
         run: sudo npm install gitbook-cli@2.1.2 --global
+      
+      - name: Remote build pages
+        run: gitbook build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
