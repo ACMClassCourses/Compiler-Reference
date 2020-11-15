@@ -39,7 +39,7 @@ jobs:
         run: sudo npm install gitbook-cli@2.1.2 --global
       
       - name: Build pages
-        run: gitbook build
+        run: gitbook build --output=.
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
