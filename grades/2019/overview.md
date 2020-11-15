@@ -1,7 +1,5 @@
 # Compiler for Grade 2019
 
-[TOC]
-
 ## Introduction
 **Compiler 2021**
 
@@ -9,6 +7,8 @@ TAs: TBA
 
 ## Course Grading
 TBA
+
+**No late submissions will be accepted.**
 
 ## Projects
 TBA
