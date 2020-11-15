@@ -38,7 +38,7 @@ jobs:
       - name: Install Gitbook-cli
         run: npm install -g gitbook-cli
       
-      - name: Build pages:
+      - name: Build pages
         run: gitbook build
 
       # Runs a single command using the runners shell
