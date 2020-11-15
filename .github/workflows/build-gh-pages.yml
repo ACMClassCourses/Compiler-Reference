@@ -38,6 +38,10 @@ jobs:
       - name: Install Gitbook-cli
         run: sudo npm install -g gitbook-cli
       
+      - name: Make a patch
+        working-directory: /usr/local/lib/node_modules/gitbook-cli/node_modules/npm/node_modules
+        run: npm install graceful-fs@latest --save
+      
       - name: Build pages
         run: gitbook build
 
