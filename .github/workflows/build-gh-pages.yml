@@ -36,7 +36,7 @@ jobs:
           npm --version
           
       - name: Install Gitbook-cli
-        run: sudo npm install -g gitbook-cli
+        run: sudo npm install gitbook-cli@2.1.2 --global
       
       - name: Make a patch
         working-directory: /usr/local/lib/node_modules/gitbook-cli/node_modules/npm/node_modules
