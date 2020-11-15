@@ -44,6 +44,9 @@ jobs:
       
       - name: Build pages
         run: gitbook build
+      
+      - name: action-github-app-token
+        uses: getsentry/action-github-app-token@main
 
       # Runs a single command using the runners shell
       - name: GitHub Pages
