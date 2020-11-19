@@ -3,18 +3,24 @@
 ## Introduction
 **Compiler 2021**
 
-TAs: TBA
+TAs: (@peterzheng98)[https://github.com/peterzheng98], @ZYHowell, @fstqwq, @jinhongyii
 
 ## Course Grading
-TBA
+- Semantic Correctness: 60%
+- Codegen Correctness: 15%
+- Optimize: 19%
+- Bonus: 6%
 
 **No late submissions will be accepted.**
 
 ## Projects
 TBA
 
+
 ## Policy
-TBA
+**Bonus:** You can only select one of the given topics.
+
+**Checkpoints:** We will check the progress every three weeks, and some of them will be graded.
 
 ## Calender
 ### Tutorials
