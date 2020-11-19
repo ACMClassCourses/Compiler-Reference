@@ -24,6 +24,7 @@ Project homepage: https://github.com/ACMClassCourses/Compiler-Design-Implementat
 
 **Checkpoints:** We will check the progress every three weeks, and some of them will be graded.
 
+About groups: We will make several groups. Different groups will have different requirements and deadlines.
 ## Calender
 ### Tutorials
 
