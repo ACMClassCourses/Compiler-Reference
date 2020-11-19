@@ -3,7 +3,7 @@
 ## Introduction
 **Compiler 2021**
 
-TAs: (@peterzheng98)[https://github.com/peterzheng98], @ZYHowell, @fstqwq, @jinhongyii
+TAs: @peterzheng98, @ZYHowell, @fstqwq, @jinhongyii
 
 ## Course Grading
 - Semantic Correctness: 60%
@@ -14,7 +14,9 @@ TAs: (@peterzheng98)[https://github.com/peterzheng98], @ZYHowell, @fstqwq, @jinh
 **No late submissions will be accepted.**
 
 ## Projects
-TBA
+Compiler: From Mx to RISC-V
+
+Project homepage: https://github.com/ACMClassCourses/Compiler-Design-Implementation
 
 
 ## Policy
@@ -24,9 +26,24 @@ TBA
 
 ## Calender
 ### Tutorials
-TBA
+
+| Time | Topic |
+|-------|--------------------|
+| TBA | Parser and Lexer |
 
 ### Checkpoints
+1. Semantic:
+    - ANTLR g4 Files
+    - Design: AST Nodes
+    - Scope and class
+    - Type Check
+2. Codegen:
+    - TBA
+3. Optimize:
+    - TBA
+4. Bonus:
+    - TBA
+
 | Weeks | Checkpoint - Basic | Checkpoint - Special |
 |-------|--------------------|----------------------|
-| Week 1 | TBA | Finish all. Believe the potential of human beings.|
+| Week 1-3 | TBA | Finish all. Believe the potential of human beings.|
