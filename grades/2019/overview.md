@@ -36,7 +36,7 @@ About groups: We will make several groups. Different groups will have different 
 1. Semantic:
     - ANTLR g4 Files
     - Design: AST Nodes
-    - Scope and class
+    - Scope and Class
     - Type Check
 2. Codegen:
     - TBA
@@ -45,6 +45,7 @@ About groups: We will make several groups. Different groups will have different 
 4. Bonus:
     - TBA
 
-| Weeks | Checkpoint - Basic | Checkpoint - Special |
-|-------|--------------------|----------------------|
-| Week 1-3 | TBA | Finish all. Believe the potential of human beings.|
+| Weeks | Checkpoint - Group A | Checkpoint - Group B | Checkpoint - Group C | Checkpoint - Special |
+|-------|--------------------|----------------------|--------------------|----------------------|
+| S1 W11-W14 | ANTLR g4 Files<br> Design: AST Nodes <br /> | ANTLR g4 Files | ANTLR g4 Files | Finish all. Believe the potential of human beings.|
+| S1 W14-W18 | Scope and Class<br> Type Check <br /> | Design: AST Nodes<br> Scope and Class <br /> | Design: AST Nodes |  |
