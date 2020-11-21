@@ -47,25 +47,36 @@ About groups: We will make several groups. Different groups will have different 
     - TBA
 
 ### Groups
-* Group A
+**These will be updated soon.**
+
+* A
 
 | Weeks | Checkpoints |
 |-------|--------------------|
 | S1 W11-W14 | ANTLR g4 Files<br> Design: AST Nodes <br /> |
 | S1 W14-W18 | Scope and Class<br> Type & Statement Check <br /> |
 
-* Group B
+* B
 
 | Weeks | Checkpoints |
 |-------|--------------------|
 | S1 W11-W14 | ANTLR g4 Files<br> Design: AST Nodes <br /> |
 | S1 W14-W18 | Scope and Class<br> Type Check <br /> |
 
-* Group C
+* C
 
 | Weeks | Checkpoints |
 |-------|--------------------|
 | S1 W11-W14 | ANTLR g4 Files<br> Design: AST Nodes <br /> |
 | S1 W14-W18 | Scope and Class |
 
-* Special: Finish all within 48 hours. Believe the potential of human beings.
+* Z
+
+| Weeks | Checkpoints |
+|-------|--------------------|
+| S1 W11-W14 | ANTLR g4 Files<br> Design: AST Nodes <br /> |
+| S1 W14-W18 | Scope and Class |
+
+
+
+* Challenge Yourself: Finish all within 48 hours. Believe the potential of human beings.
