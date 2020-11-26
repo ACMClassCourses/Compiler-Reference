@@ -30,7 +30,9 @@ About groups: We will make several groups. Different groups will have different 
 
 | Time | Topic | Place | 
 |-------|--------------------|---|
-| 2020.11.26 10:00 | Parser and Lexer | TBA|
+| 2020.11.26 10:00 | Parser and Lexer | East Upper Hall 107 |
+| TBA | TBA | TBA |
+
 
 ### Checkpoints
 1. Semantic:
