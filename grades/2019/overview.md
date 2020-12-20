@@ -18,6 +18,16 @@ Compiler: From Mx to RISC-V
 
 Project homepage: https://github.com/ACMClassCourses/Compiler-Design-Implementation
 
+S1: Semester 1 / WV: Winter Vacation / S2: Semester 2
+
+Frontend: S1W18(Suggested)
+
+Codegen: S2W5, IR for S2W3
+
+Optimize: S2W9
+
+Bonus: S2W16
+
 
 ## Policy
 **Bonus:** You can only select one of the given topics.
@@ -35,50 +45,39 @@ About groups: We will make several groups. Different groups will have different 
 
 
 ### Checkpoints
+
+**Check:** 1.2, 1.6, 2.1, 2.4, 2.7, 3.0, 3.3
 1. Semantic:
-    - ANTLR g4 Files
-    - Design: AST Nodes
-    - Scope and Class
-    - Type Check
-    - Statement Check
+    - 1.0 Yx Language: g4 files, AST Nodes
+    - 1.1 Mx Language: g4 Files or lexer
+    - 1.2 Mx Language: AST Nodes
+    - 1.2b AST Printer(Optional)
+    - 1.3 Scope and Class
+    - 1.4 Type Check
+    - 1.5a Statement Check
+    - 1.5b Pass 50% Semantic Check
+    - 1.5c Pass Semantic Check
+    - 1.6 AST Optimizer(Optional)
 2. Codegen:
-    - TBA
+    | Stage | LLVM | User Design |
+    |-------|------|-------------|
+    |2.0a| IR Nodes Design | IR Nodes Design |
+    |2.0b| IR Nodes Impl | IR Nodes Impl |
+    |2.1| IR Builder | IR Builder |
+    |2.2| SSA | SSA(Optional) |
+    |2.3 (optional)| *N/A* | IR Intepreter |
+    |2.4| Check IR | Check IR |
+    |2.5a (optional)| Three-address Code | Three-address Code|
+    |2.5b| Instruction Selection | Instruction Selection | 
+    |2.6| Register Allocation | Register Allocation |
+    |2.7| Pass Codegen Test | Pass Codegen Test |
 3. Optimize:
-    - TBA
-4. Bonus:
-    - TBA
-
-### Groups
-**These will be updated soon.**
-
-* A
-
-| Weeks | Checkpoints |
-|-------|--------------------|
-| S1 W11-W14 | ANTLR g4 Files<br> Design: AST Nodes <br /> |
-| S1 W14-W18 | Scope and Class<br> Type & Statement Check <br /> |
-
-* B
-
-| Weeks | Checkpoints |
-|-------|--------------------|
-| S1 W11-W14 | ANTLR g4 Files<br> Design: AST Nodes <br /> |
-| S1 W14-W18 | Scope and Class<br> Type Check <br /> |
-
-* C
-
-| Weeks | Checkpoints |
-|-------|--------------------|
-| S1 W11-W14 | ANTLR g4 Files<br> Design: AST Nodes <br /> |
-| S1 W14-W18 | Scope and Class |
-
-* Z
-
-| Weeks | Checkpoints |
-|-------|--------------------|
-| S1 W11-W14 | ANTLR g4 Files<br> Design: AST Nodes <br /> |
-| S1 W14-W18 | Scope and Class |
-
-
-
-* Challenge Yourself: Finish all within 48 hours. Believe the potential of human beings.
+    - 3.0 Register Allocation
+    - 3.1 DCE
+    - 3.2 Inline
+    - 3.3 CSE
+    - 3.4 Pass Optimize Test
+4. Bonus(TBA):
+    - 4.1 JIT
+    - 4.2 Debug information
+    - 4.3 Class
