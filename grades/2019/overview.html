@@ -192,6 +192,11 @@
 <h2 id="projects">Projects</h2>
 <p>Compiler: From Mx to RISC-V</p>
 <p>Project homepage: <a href="https://github.com/ACMClassCourses/Compiler-Design-Implementation" target="_blank">https://github.com/ACMClassCourses/Compiler-Design-Implementation</a></p>
+<p>S1: Semester 1 / WV: Winter Vacation / S2: Semester 2</p>
+<p>Frontend: S1W18(Suggested)</p>
+<p>Codegen: S2W5, IR for S2W3</p>
+<p>Optimize: S2W9</p>
+<p>Bonus: S2W16</p>
 <h2 id="policy">Policy</h2>
 <p><strong>Bonus:</strong> You can only select one of the given topics.</p>
 <p><strong>Checkpoints:</strong> We will check the progress every three weeks, and some of them will be graded.</p>
@@ -220,117 +225,49 @@
 </tbody>
 </table>
 <h3 id="checkpoints">Checkpoints</h3>
+<p><strong>Check:</strong> 1.2, 1.6, 2.1, 2.4, 2.7, 3.0, 3.3</p>
 <ol>
 <li>Semantic:<ul>
-<li>ANTLR g4 Files</li>
-<li>Design: AST Nodes</li>
-<li>Scope and Class</li>
-<li>Type Check</li>
-<li>Statement Check</li>
+<li>1.0 Yx Language: g4 files, AST Nodes</li>
+<li>1.1 Mx Language: g4 Files or lexer</li>
+<li>1.2 Mx Language: AST Nodes</li>
+<li>1.2b AST Printer(Optional)</li>
+<li>1.3 Scope and Class</li>
+<li>1.4 Type Check</li>
+<li>1.5a Statement Check</li>
+<li>1.5b Pass 50% Semantic Check</li>
+<li>1.5c Pass Semantic Check</li>
+<li>1.6 AST Optimizer(Optional)</li>
 </ul>
 </li>
-<li>Codegen:<ul>
-<li>TBA</li>
-</ul>
-</li>
+<li>Codegen:
+ | Stage | LLVM | User Design |
+ |-------|------|-------------|
+ |2.0a| IR Nodes Design | IR Nodes Design |
+ |2.0b| IR Nodes Impl | IR Nodes Impl |
+ |2.1| IR Builder | IR Builder |
+ |2.2| SSA | SSA(Optional) |
+ |2.3 (optional)| <em>N/A</em> | IR Intepreter |
+ |2.4| Check IR | Check IR |
+ |2.5a (optional)| Three-address Code | Three-address Code|
+ |2.5b| Instruction Selection | Instruction Selection | 
+ |2.6| Register Allocation | Register Allocation |
+ |2.7| Pass Codegen Test | Pass Codegen Test |</li>
 <li>Optimize:<ul>
-<li>TBA</li>
+<li>3.0 Register Allocation</li>
+<li>3.1 DCE</li>
+<li>3.2 Inline</li>
+<li>3.3 CSE</li>
+<li>3.4 Pass Optimize Test</li>
 </ul>
 </li>
-<li>Bonus:<ul>
-<li>TBA</li>
+<li>Bonus(TBA):<ul>
+<li>4.1 JIT</li>
+<li>4.2 Debug information</li>
+<li>4.3 Class</li>
 </ul>
 </li>
 </ol>
-<h3 id="groups">Groups</h3>
-<p><strong>These will be updated soon.</strong></p>
-<ul>
-<li>A</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>Weeks</th>
-<th>Checkpoints</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>S1 W11-W14</td>
-<td>ANTLR g4 Files<br> Design: AST Nodes <br></td>
-</tr>
-<tr>
-<td>S1 W14-W18</td>
-<td>Scope and Class<br> Type &amp; Statement Check <br></td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>B</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>Weeks</th>
-<th>Checkpoints</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>S1 W11-W14</td>
-<td>ANTLR g4 Files<br> Design: AST Nodes <br></td>
-</tr>
-<tr>
-<td>S1 W14-W18</td>
-<td>Scope and Class<br> Type Check <br></td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>C</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>Weeks</th>
-<th>Checkpoints</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>S1 W11-W14</td>
-<td>ANTLR g4 Files<br> Design: AST Nodes <br></td>
-</tr>
-<tr>
-<td>S1 W14-W18</td>
-<td>Scope and Class</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>Z</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>Weeks</th>
-<th>Checkpoints</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>S1 W11-W14</td>
-<td>ANTLR g4 Files<br> Design: AST Nodes <br></td>
-</tr>
-<tr>
-<td>S1 W14-W18</td>
-<td>Scope and Class</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>Challenge Yourself: Finish all within 48 hours. Believe the potential of human beings.</li>
-</ul>
 
                                 
                                 </section>
@@ -370,7 +307,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"2019","level":"1.2.1","depth":2,"previous":{"title":"Compiler","level":"1.2","depth":1,"path":"Overview.md","ref":"Overview.md","articles":[{"title":"2019","level":"1.2.1","depth":2,"path":"grades/2019/overview.md","ref":"grades/2019/overview.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"grades/2019/overview.md","mtime":"2020-11-26T02:19:04.607Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-11-26T02:20:17.511Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"2019","level":"1.2.1","depth":2,"previous":{"title":"Compiler","level":"1.2","depth":1,"path":"Overview.md","ref":"Overview.md","articles":[{"title":"2019","level":"1.2.1","depth":2,"path":"grades/2019/overview.md","ref":"grades/2019/overview.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"grades/2019/overview.md","mtime":"2020-12-20T15:09:34.541Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-12-20T15:10:34.232Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
