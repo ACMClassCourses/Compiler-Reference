@@ -59,18 +59,20 @@ About groups: We will make several groups. Different groups will have different 
     - 1.5c Pass Semantic Check
     - 1.6 AST Optimizer(Optional)
 2. Codegen:
-    | Stage | LLVM | User Design |
-    |-------|------|-------------|
-    |2.0a| IR Nodes Design | IR Nodes Design |
-    |2.0b| IR Nodes Impl | IR Nodes Impl |
-    |2.1| IR Builder | IR Builder |
-    |2.2| SSA | SSA(Optional) |
-    |2.3 (optional)| *N/A* | IR Intepreter |
-    |2.4| Check IR | Check IR |
-    |2.5a (optional)| Three-address Code | Three-address Code|
-    |2.5b| Instruction Selection | Instruction Selection | 
-    |2.6| Register Allocation | Register Allocation |
-    |2.7| Pass Codegen Test | Pass Codegen Test |
+
+| Stage | LLVM | User Design |
+|-------|------|-------------|
+|2.0a| IR Nodes Design | IR Nodes Design |
+|2.0b| IR Nodes Impl | IR Nodes Impl |
+|2.1| IR Builder | IR Builder |
+|2.2| SSA | SSA(Optional) |
+|2.3 (optional)| *N/A* | IR Intepreter |
+|2.4| Check IR | Check IR |
+|2.5a (optional)| Three-address Code | Three-address Code|
+|2.5b| Instruction Selection | Instruction Selection | 
+|2.6| Register Allocation | Register Allocation |
+|2.7| Pass Codegen Test | Pass Codegen Test |
+
 3. Optimize:
     - 3.0 Register Allocation
     - 3.1 DCE
