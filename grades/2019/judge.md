@@ -44,6 +44,11 @@ Make sure that the following public key is added to the repo that you commit.
 
     CMake suite maintained and supported by Kitware (kitware.com/cmake).
     ```
+    - Swift:
+    ```
+    Swift version 5.1.5 (swift-5.1.5-RELEASE)
+    Target: x86_64-unknown-linux-gnu
+    ```
     - awk:
     ```
     GNU Awk 4.1.4, API: 1.1 (GNU MPFR 4.0.1, GNU MP 6.1.2)
