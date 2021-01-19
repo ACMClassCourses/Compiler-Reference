@@ -107,5 +107,5 @@ Make sure that the following public key is added to the repo that you commit.
     - 身体是革命的本钱，年轻人不要老熬夜，早点开工每天写一点还能轻轻松松的哈。
 
 8. 一些温馨小贴士：
-    - bash里面涉及mkdir操作的，建议使用`mkdir -d`操作以防止第二次创建失败造成构建失败，同时在`build.bash`创建的文件**一定一定要插入`gitignore`**。
+    - bash里面涉及mkdir操作的，建议使用`mkdir -p`操作以防止第二次创建失败造成构建失败，同时在`build.bash`创建的文件**一定一定要插入`gitignore`**。
     - 提交之前请务必检查是否从`stdin`读取程序。
